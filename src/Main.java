@@ -2,9 +2,9 @@ public class Main {
 
     public static void main(String[] args) {
         BmiService service = new BmiService();
-        double weight_kg = 98;
-        double height_m = 1.87;
-        double bmiindex = service.calculate(weight_kg, height_m);
+        double weightKg = 98;
+        double heightM = 1.87;
+        double bmiindex = service.calculate(weightKg, heightM);
         System.out.println("Индекс массы тела: " + bmiindex);
     }
 }
